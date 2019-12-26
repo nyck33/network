@@ -1,0 +1,23 @@
+Script started on 2019-12-22 14:54:34-0800
+(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/copyFileMine[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/copyFileMine[00m$ gcc copy_ syscalls.c -o syscalls[K[K[K[K[K[K[K[Kcopy -Wall
+(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/copyFileMine[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/copyFileMine[00m$ ./copy sa mple.txt copy.txtscopy.txtacopy.txtmcopy.txtpcopy.txtlcopy.txtecopy.txt_copy.txt[C[C[C[C[C[C[C[C
+in check_same
+Success, total 0 chars same
+Success, total 10 chars same
+Success, total 20 chars same
+Success, total 30 chars same
+Success, total 40 chars same
+Success, total 50 chars same
+Success, total 60 chars same
+Success, total 70 chars same
+Success, total 80 chars same
+sample.txt is the same as sample_copy.txt
+(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/copyFileMine[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/copyFileMine[00m$ cat sampl e_copy.txt
+This is a test.  
+Work hard, study everyday, love family, stay healthy.  
+
+By Nobu
+(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/copyFileMine[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/copyFileMine[00m$ exit
+exit
+
+Script done on 2019-12-22 14:55:54-0800

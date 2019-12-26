@@ -1,0 +1,58 @@
+Script started on 2019-12-22 14:57:58-0800
+(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ script screeenshot.txt[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ [7Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat sample_ccopy.txt[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ ./copy sample.txt sample_copy.txt[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ gcc copy_syscalls.c -o copy -Wall[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ jupyter notebook[K[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ gcc copy_syscalls.c -o copy -Wall[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ ./copy sample.txt sample_copy.txt[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ cat sample_c[14Popy.txt[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ [7Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript screeenshot.txt[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript screeenshot.txt[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ [7Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat sample_ccopy.txt[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ ./copy sample.txt sample_copy.txt[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ gcc copy_syscalls.c -o copy -Wall[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ jupyter notebook[K[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ conda activate midterm[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ jupyter note[6Pbook[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ gcc copy_syscalls.c -o copy -Wall[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ jupyter notebook[K[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ conda activate midterm[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ [Cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./gradlew innstallKernel[A(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kgcc main1.c  copy_len_cat.c -o main -Wall
+(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ ./main
+Usage main1.c {string}(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ ./main nobu [A
+in string_length
+Enter your student number, up to 100 characters
+33
+argv[1]: nobu
+ length of argv[1]: 4
+ student number: 33
+ length of student number: 2
+in string_copy
+in string_copy, copy is nobu
+nobu is at 0x7ffcddec6780
+ nobu is at 0x7ffcddec6910
+in string_cat
+concatenated string: nobu33
+concatenated string nobu33
+(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ ./main Yan[K[K[KYan[K[K[KOb[K[KSid[K[K[KMari o [K
+in string_length
+Enter your student number, up to 100 characters
+66
+argv[1]: Mario
+ length of argv[1]: 5
+ student number: 66
+ length of student number: 2
+in string_copy
+in string_copy, copy is Mario
+Mario is at 0x7fff9cac6b20
+ Mario is at 0x7fff9cac6cb0
+in string_cat
+concatenated string: Mario66
+concatenated string Mario66
+(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ ./main Wayn e
+in string_length
+Enter your student number, up to 100 characters
+99
+argv[1]: Wayne
+ length of argv[1]: 5
+ student number: 99
+ length of student number: 2
+in string_copy
+in string_copy, copy is Wayne
+Wayne is at 0x7ffe2c018210
+ Wayne is at 0x7ffe2c0183a0
+in string_cat
+concatenated string: Wayne99
+concatenated string Wayne99
+(base) ]0;nobu@gold3forever: ~/Desktop/COMP3271/projectPart1/3functions[01;32mnobu@gold3forever[00m:[01;34m~/Desktop/COMP3271/projectPart1/3functions[00m$ exit
+exit
+
+Script done on 2019-12-22 14:59:43-0800
