@@ -1,7 +1,5 @@
 // udp client driver program 
 #include "headerFiles.h"
-//#define PORT 5000 
-#define MAXLINE 1000 
 
 // Driver code 
 int main(int argc, char *argv[]) 
@@ -46,16 +44,17 @@ int main(int argc, char *argv[])
     while(keep_going){
 		string = argv[i+3];  //argv[0] is program name
         len = sendto(sockfd, string, strlen(string), 0, (const struct sockaddr *)&servaddr, sizeof(servaddr)); 
+		if(strcmp(string, end_signal)==0)
+			break;
 		// waiting for response
 		recvfrom(sockfd, buffer, len, 0, NULL, NULL); 
 		buffer[len]='\0';
 		printf("echo received: ");
         puts(buffer);
 		printf("\n"); 
-		num_messages++;
-		if((strcmp(string, end_signal)==0) || (num_messages == argc))
-			keep_going=0;
 		i++;
+		if(i==num_messages)
+			break;
     }
 	// close the descriptor 
 	close(sockfd); 

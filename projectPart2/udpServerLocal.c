@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	servAddr.sin_addr.s_addr = htonl(INADDR_ANY);  //default IP address
 	
     //Create socket
-	sockfd = socket(PF_INET, SOCK_DGRAM, 0);
+	sockfd = socket(AF_INET, SOCK_DGRAM, 0);
     if(sockfd<0)
 	{
 		perror("Error, socket failed");
@@ -38,13 +38,16 @@ int main(int argc, char *argv[])
 		len = recvfrom(sockfd, buffer, sizeof(buffer), 0, (struct sockaddr *)&clntAddr,&clntAddrLen);
 		printf("received: %d\n", *buffer);
         buffer[len] = '\0';
-        if (strcmp(buffer, end_signal)==0)
-			printf("end signal received, closing\n");
-            break;
+		puts(buffer);
+		printf("\n");
+        if (strcmp(buffer, end_signal)==0){
+			break;
+		}
 		//send string
 		sendto(sockfd, buffer, len, 0, (struct sockaddr*)&clntAddr, sizeof(clntAddr));
         printf("echo sent\n");
 	}//End of for loop
+	printf("end signal received, closing\n");
 	close(sockfd);
 	exit(0);
 
