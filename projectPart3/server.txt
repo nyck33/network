@@ -1,0 +1,4291 @@
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 0
+sc, buf[0]: 0
+sc, buf[1]: 1
+sc, buf[2]: 2
+sc, buf[3]: 3
+sc, buf[4]: 4
+sc, buf[5]: 5
+sc, buf[6]: 6
+sc, buf[7]: 7
+sc, buf[8]: 8
+sc, buf[9]: 9
+R is now: 1
+check ACK for 9's: þ 
+ss, ack_sendB: 2
+p_count: 1
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 2
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 3
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 4
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 5
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 6
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 7
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 8
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 9
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 10
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 11
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 12
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 13
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 14
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 15
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 16
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 17
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 18
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 19
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 20
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 21
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 22
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 23
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 24
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 25
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 26
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 27
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 28
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 29
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 30
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 31
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 32
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 33
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 34
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 35
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 36
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 37
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 38
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 39
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 40
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 41
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 42
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 43
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 44
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 45
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 46
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 47
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 48
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 49
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 50
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 51
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 52
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 53
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 54
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 55
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 56
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 57
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 58
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 59
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 60
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 61
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 62
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 63
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 64
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 65
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 66
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 67
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 68
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 69
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 70
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 71
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 72
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 73
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 74
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 75
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 76
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 77
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 78
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 79
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 80
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 81
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 82
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 83
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 84
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 85
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 86
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 87
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 88
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 89
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 90
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 91
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 92
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 93
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 94
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 95
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 96
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 97
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 98
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 99
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 100
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 101
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 102
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 103
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 104
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 105
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 106
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 107
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 108
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 109
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 110
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 111
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 112
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 113
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 114
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 115
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 116
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 117
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 118
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 119
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 120
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 121
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 122
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 123
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 124
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 125
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 126
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 127
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 128
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 129
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 130
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 131
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 132
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 133
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 134
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 135
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 136
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 137
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 138
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 139
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 140
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 141
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 142
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 143
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 144
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 145
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 146
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 147
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 148
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 149
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 150
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 151
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 152
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 153
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 154
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 155
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 156
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 157
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 158
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 159
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 160
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 161
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 162
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 163
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 164
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 165
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 166
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 167
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 168
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 169
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 170
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 171
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 172
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 173
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 174
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 175
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 176
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 177
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 178
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 179
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 180
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 181
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 182
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 183
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 184
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 185
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 186
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 187
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 188
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 189
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 190
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 191
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 192
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 193
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 194
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 195
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 196
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 197
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 198
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 199
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 200
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 201
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 202
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 203
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 204
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 205
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 206
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: ÿ
+ss, calc_csum: 42 vs. actual csum: 240
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 csum wrong
+p_count: 207
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 208
+ bytes_read 13
+ 0123456789
+ss, numBrecv: 13
+ss, csum: 240
+ seqnum: 0
+, message_len: 10
+ss, temp[0]: 0
+ss, temp[1]: 1
+ss, temp[2]: 2
+ss, temp[3]: 3
+ss, temp[4]: 4
+ss, temp[5]: 5
+ss, temp[6]: 6
+ss, temp[7]: 7
+ss, temp[8]: 8
+ss, temp[9]: 9
+ss, calc_csum: 240 vs. actual csum: 240
+seqnum check: 0 vs. R: 1
+ss, csum_wrong check: 9 9
+ss, error code 99 sent bytes = 2 seqnum_wrong
+p_count: 209
+ bytes_read 13
+ 0123456789
+ss, numBr

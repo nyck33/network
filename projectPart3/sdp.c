@@ -15,6 +15,13 @@
 #include <sys/unistd.h>
 
 
+int swap_connect(unsigned int addr, unsigned short port);
+int swap_disconnect(int sd);
+int swap_accept(unsigned short port);
+int sdp_receive(int sd, char *buf);
+int sdp_receive_with_timer(int sd, char *buf, unsigned int expiration);
+int sdp_send(int sd, char *buf, int length);
+
 #define	MAXLINE	256	// maximum characters to receive and send at once
 
 
@@ -193,7 +200,7 @@ int sdp_receive_with_timer(int sd, char *buf, unsigned int expiration)
 			FD_SET(sockfd, &rfds);
 			tv.tv_sec = expiration / 1000;
 			tv.tv_usec = (expiration % 1000) * 1000;	// usec -> microsecond, not millisecond
-			retval = select(sockfd+1, &rfds, NULL, NULL, &tv);
+			retval = select(sockfd+1, &rfds, NULL, NULL, &tv);  //select() blocks until ready to execute
 			if (retval)
 				break;
 			else

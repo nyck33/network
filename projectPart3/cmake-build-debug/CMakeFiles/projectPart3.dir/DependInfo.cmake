@@ -1,0 +1,24 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/nobu/Desktop/COMP3271/projectAssignments_git/projectPart3/sdp.c" "/home/nobu/Desktop/COMP3271/projectAssignments_git/projectPart3/cmake-build-debug/CMakeFiles/projectPart3.dir/sdp.c.o"
+  "/home/nobu/Desktop/COMP3271/projectAssignments_git/projectPart3/swap_client.c" "/home/nobu/Desktop/COMP3271/projectAssignments_git/projectPart3/cmake-build-debug/CMakeFiles/projectPart3.dir/swap_client.c.o"
+  "/home/nobu/Desktop/COMP3271/projectAssignments_git/projectPart3/swap_server.c" "/home/nobu/Desktop/COMP3271/projectAssignments_git/projectPart3/cmake-build-debug/CMakeFiles/projectPart3.dir/swap_server.c.o"
+  "/home/nobu/Desktop/COMP3271/projectAssignments_git/projectPart3/test_swap_client.c" "/home/nobu/Desktop/COMP3271/projectAssignments_git/projectPart3/cmake-build-debug/CMakeFiles/projectPart3.dir/test_swap_client.c.o"
+  "/home/nobu/Desktop/COMP3271/projectAssignments_git/projectPart3/test_swap_server.c" "/home/nobu/Desktop/COMP3271/projectAssignments_git/projectPart3/cmake-build-debug/CMakeFiles/projectPart3.dir/test_swap_server.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
